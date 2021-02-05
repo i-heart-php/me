@@ -51,7 +51,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
         <SVG icon="css3" hiddenMobile width={12} color="#264de4" left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="php" width={6} color="#8993be" left="4%" top="20%" />
-      <SVG icon="php" width={12} color="icon_darkest" left="70%" top="60%" />
+      <SVG icon="reactJS" width={24} color="#61DBFB" left="70%" top="60%" />
       <SVG icon="nodeJS" width={12} color="#3C873A" left="20%" top="30%" />
       <SVG icon="wordpress" width={8} stroke color="#00749C" left="80%" top="70%" />
     </Divider>

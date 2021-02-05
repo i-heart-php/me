@@ -43,10 +43,10 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
         <SVG icon="htm5" width={12} stroke color="#F16529" left="90%" top="30%" />
         <SVG icon="php" width={16} color="#8993be" left="70%" top="90%" />
         <SVG icon="htm5" hiddenMobile width={16} stroke color="#F16529" left="18%" top="75%" />
-        <SVG icon="php" width={6} color="#8993be" left="75%" top="10%" />
+        <SVG icon="php" width={16} color="#8993be" left="75%" top="10%" />
         <SVG icon="css3" hiddenMobile width={8} color="#264de4" left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="php" hiddenMobile width={6} color="#8993be" left="4%" top="20%" />
+      <SVG icon="mysql" hiddenMobile width={24} color="#F29111" left="4%" top="20%" />
       <SVG icon="php" width={12} color="#8993be" left="80%" top="60%" />
       <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
       <SVG icon="nodeJS" width={12} color="#3C873A" left="29%" top="26%" />

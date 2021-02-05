@@ -21,17 +21,17 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <UpDown>
         <SVG icon="nodeJS" hiddenMobile width={6} color="#3C873A" left="50%" top="75%" />
         <SVG icon="css3" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
-        <SVG icon="htm5" width={8} stroke color="icon_darkest" left="25%" top="5%" />
+        <SVG icon="htm5" width={8} stroke color="#F16529" left="25%" top="5%" />
         <SVG icon="css3" hiddenMobile width={24} color="#264de4" left="80%" top="80%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="mysql" hiddenMobile width={16} color="#F29111" left="5%" top="80%" />
+        <SVG icon="wordpress" hiddenMobile width={16} color="#00749C" left="5%" top="80%" />
         <SVG icon="htm5" width={12} stroke color="#F16529" left="95%" top="50%" />
-        <SVG icon="php" hiddenMobile width={6} color="#8993be" left="85%" top="15%" />
-        <SVG icon="css3" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
+        <SVG icon="mysql" hiddenMobile width={12} color="#F29111" left="85%" top="15%" />
+        <SVG icon="reactJS" hiddenMobile width={16} color="#61DBFB" left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="php" hiddenMobile width={6} color="#8993be" left="4%" top="20%" />
-      <SVG icon="php" width={12} color="icon_darkest" left="70%" top="60%" />
+      <SVG icon="php" hiddenMobile width={16} color="#8993be" left="4%" top="20%" />
+      <SVG icon="reactJS" width={12} color="#61DBFB" left="70%" top="60%" />
       <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
       <SVG icon="nodeJS" width={12} color="icon_darkest" left="20%" top="30%" />
       <SVG icon="wordpress" width={8} stroke color="icon_darkest" left="80%" top="70%" />
