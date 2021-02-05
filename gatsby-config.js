@@ -8,7 +8,7 @@ module.exports = {
     siteDescription: `Mike Vardy is a Full Stack Developer with 9+ years experience with a strong ability produce affordable high-quality, user-friendly, scalable, bug-free software all on-time and on-budget.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpeg`,
-    author: `@i-heart-php`,
+    author: `https://www.linkedin.com/in/mvardy/`,
   },
   plugins: [
     {
@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        start_url: "/me",
+        start_url: "/me/",
         background_color: "#fffff",
         display: "standalone",
         icon: "src/img/favicon-32x32.png", // This path is relative to the root of the site.
