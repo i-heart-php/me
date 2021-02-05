@@ -4,7 +4,7 @@ module.exports = {
     siteTitle: `Mike Vardy | Full Stack Dev | Ontario, Canada`,
     siteTitleAlt: `Mike Vardy | Full Stack Dev | Ontario, Canada`,
     siteHeadline: `Mike Vardy | Full Stack Dev | Ontario, Canada`,
-    siteUrl: `https://i-heart-php.github.io/`,
+    siteUrl: `https://i-heart-php.github.io/me`,
     siteDescription: `Mike Vardy is a Full Stack Developer with 9+ years experience with a strong ability produce affordable high-quality, user-friendly, scalable, bug-free software all on-time and on-budget.`,
     siteLanguage: `en`,
     siteImage: `src/img/banner.jpg`,
