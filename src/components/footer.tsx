@@ -22,7 +22,7 @@ const Footer = () => {
       Crafted with ❤️ in Ontario, Canada 🇨🇦
       <br/>
       <br/>
-      <a href="https://opensource.creativecommons.org/" target="blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="88px" height="31px">
+      <a href="https://opensource.creativecommons.org/" target="blank" style={{paddingBottom: ".625rem"}}><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="88px" height="31px">
         <radialGradient id="SVGID_1_" cx="1156.1123" cy="1087.813" r="181.6453" gradientTransform="matrix(0.2613 0 0 0.2613 -258.1219 -273.3688)" gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#F5F7F5"/>
           <stop offset="1" stop-color="#A5B2AC"/>
