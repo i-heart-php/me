@@ -26,7 +26,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       </UpDown>
       <UpDownWide>
         <SVG icon="mysql" hiddenMobile width={16} color="#F29111" left="5%" top="80%" />
-        <SVG icon="htm5" width={12} stroke color="icon_brightest" left="95%" top="50%" />
+        <SVG icon="htm5" width={12} stroke color="#F16529" left="95%" top="50%" />
         <SVG icon="php" hiddenMobile width={6} color="#8993be" left="85%" top="15%" />
         <SVG icon="css3" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>
