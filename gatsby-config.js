@@ -19,6 +19,32 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        start_url: "/me",
+        background_color: "#fffff",
+        display: "standalone",
+        icon: "src/img/favicon-32x32.png", // This path is relative to the root of the site.
+        icons: [
+          {
+            src: `src/img/mstile-150x150.png`,
+            sizes: `150x150`,
+            type: `image/png`,
+          },
+          {
+            src: `src/img/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `src/img/android-chrome-384x384`,
+            sizes: `384x384`,
+            type: `image/png`,
+          },
+        ], // Add or remove icon sizes as desired
+      }
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
