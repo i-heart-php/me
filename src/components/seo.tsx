@@ -49,6 +49,7 @@ const SEO = ({ title = ``, description = ``, pathname = ``, image = ``, children
       <meta name="twitter:image" content={seo.image} />
       <meta name="twitter:image:alt" content={seo.description} />
       <meta name="twitter:creator" content={author} />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175811741-1"></script>
       {children}
     </Helmet>
   )
