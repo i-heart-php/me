@@ -33,25 +33,25 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
-        <SVG icon="nodeJS" width={6} color="#F16529" left="85%" top="75%" />
+        <SVG icon="nodeJS" width={6} color="#3C873A" left="85%" top="75%" />
         <SVG icon="css3" width={8} color="#264de4" left="70%" top="20%" />
-        <SVG icon="htm5" width={8} stroke color="#F16529" left="25%" top="5%" />
+        <SVG icon="htm5" width={8} color="#F16529" left="25%" top="5%" />
         <SVG icon="php" hiddenMobile width={24} color="#8993be" left="17%" top="60%" />
       </UpDown>
       <UpDownWide>
         <SVG icon="mysql" hiddenMobile width={16} color="#F29111" left="20%" top="90%" />
-        <SVG icon="htm5" width={12} stroke color="#F16529" left="90%" top="30%" />
-        <SVG icon="php" width={16} color="#8993be" left="70%" top="90%" />
-        <SVG icon="htm5" hiddenMobile width={16} stroke color="#F16529" left="18%" top="75%" />
+        <SVG icon="htm5" width={12} color="#F16529" left="90%" top="30%" />
+        <SVG icon="js" width={16} color="#F7DF1E" left="70%" top="90%" />
+        <SVG icon="htm5" hiddenMobile width={16} color="#F16529" left="18%" top="75%" />
         <SVG icon="php" width={16} color="#8993be" left="75%" top="10%" />
         <SVG icon="css3" hiddenMobile width={8} color="#264de4" left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="mysql" hiddenMobile width={24} color="#F29111" left="4%" top="20%" />
       <SVG icon="php" width={12} color="#8993be" left="80%" top="60%" />
       <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
-      <SVG icon="nodeJS" width={12} color="#3C873A" left="29%" top="26%" />
-      <SVG icon="wordpress" width={16} stroke color="#00749C" left="75%" top="30%" />
-      <SVG icon="wordpress" width={8} stroke color="#00749C" left="80%" top="70%" />
+      <SVG icon="wordpress" width={12} color="#00749C" left="29%" top="26%" />
+      <SVG icon="nodeJS" width={16} color="#3C873A" left="75%" top="30%" />
+      <SVG icon="js" width={8} color="#F7DF1E" left="80%" top="70%" />
     </Divider>
   </div>
 )

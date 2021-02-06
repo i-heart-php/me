@@ -43,17 +43,17 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
         <SVG icon="css3" hiddenMobile width={8} color="icon_darkest" left="70%" top="20%" />
-        <SVG icon="htm5" width={8} stroke color="#F16529" left="25%" top="5%" />
+        <SVG icon="htm5" width={8} color="#F16529" left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="htm5" width={12} stroke color="icon_darkest" left="95%" top="50%" />
-        <SVG icon="php" width={6} color="#8993be" left="85%" top="15%" />
+        <SVG icon="htm5" width={12} color="icon_darkest" left="95%" top="50%" />
+        <SVG icon="php" width={16} color="#8993be" left="85%" top="15%" />
         <SVG icon="css3" hiddenMobile width={12} color="#264de4" left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="php" width={6} color="#8993be" left="4%" top="20%" />
+      <SVG icon="wordpress" width={16} color="#00749C" left="4%" top="20%" />
       <SVG icon="reactJS" width={24} color="#61DBFB" left="70%" top="60%" />
       <SVG icon="nodeJS" width={12} color="#3C873A" left="20%" top="30%" />
-      <SVG icon="wordpress" width={8} stroke color="#00749C" left="80%" top="70%" />
+      <SVG icon="js" width={8} fill color="#F7DF1E" left="80%" top="70%" />
     </Divider>
   </div>
 )
