@@ -29,7 +29,8 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
               color: `white !important`,
               fontFamily: `'Source Code Pro',monospace`,
               fontWeight: `900`,
-              fontSize: `4rem`
+              fontSize: `4rem`,
+              lineHeight: `.9;`
             },
           }}
         >

@@ -39,7 +39,8 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           h2: {
             fontFamily: `'Source Code Pro',monospace`,
             fontWeight: `900`,
-            fontSize: `4rem`
+            fontSize: `4rem`,
+            lineHeight: `.9;`
           },
         }}>
         <AboutMDX />
