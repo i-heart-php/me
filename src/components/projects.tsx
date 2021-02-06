@@ -49,8 +49,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       <SVG icon="mysql" hiddenMobile width={24} color="#F29111" left="4%" top="20%" />
       <SVG icon="php" width={12} color="#8993be" left="80%" top="60%" />
       <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
-      <SVG icon="wordpress" width={12} color="#00749C" left="29%" top="26%" />
-      <SVG icon="nodeJS" width={16} color="#3C873A" left="75%" top="30%" />
+
       <SVG icon="js" width={8} color="#F7DF1E" left="80%" top="70%" />
     </Divider>
   </div>

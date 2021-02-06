@@ -20,7 +20,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <SVG icon="mysql" hiddenMobile width={16} color="#F29111" left="80%" top="10%" />
         <SVG icon="htm5" width={12} color="#F16529" left="90%" top="50%" />
         <SVG icon="php" width={16} color="icon_darker" left="80%" top="90%" />
-        <SVG icon="htm5" width={16} color="icon_darkest" left="30%" top="65%" />
+        <SVG icon="mysql" width={16} color="icon_darkest" left="15%" top="65%" />
         <SVG icon="reactJS" width={24} color="#61DBFB" left="60%" top="25%" />
         <SVG icon="php" width={6} color="icon_darkest" left="75%" top="10%" />
         <SVG icon="css3" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
@@ -30,10 +30,10 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <SVG icon="php" width={12} color="icon_darkest" left="50%" top="60%" />
       <SVG icon="css3" width={8} color="icon_darkest" left="95%" top="90%" />
       <SVG icon="js" width={24} color="#F7DF1E" left="40%" top="80%" />
-      <SVG icon="htm5" width={8} color="icon_darker" left="25%" top="5%" />
+      <SVG icon="css3" width={8} color="#264de4" left="25%" top="5%" />
       <SVG icon="php" width={64} color="#8993be" left="85%" top="5%" />
       <SVG icon="nodeJS" hiddenMobile width={64} color="#3C873A" left="5%" top="90%" />
-      <SVG icon="nodeJS" width={6} color="icon_darkest" left="10%" top="10%" />
+      <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
       <SVG icon="nodeJS" width={12} color="icon_darkest" left="40%" top="30%" />
       <SVG icon="wordpress" width={16} color="icon_darker" left="10%" top="50%" />
       <SVG icon="wordpress" width={8} color="icon_darker" left="80%" top="70%" />
