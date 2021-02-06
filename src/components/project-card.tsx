@@ -2,18 +2,8 @@
 import React from "react"
 import { jsx } from "theme-ui"
 
-type ProjectCardProps = {
-  link: string
-  title: string
-  children: React.ReactNode
-  bg: string
-}
-
-const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
-  <a
-    href={link}
-    target="_blank"
-    rel="noreferrer noopener"
+const ProjectCard = ({ title, children, bg }) => (
+  <div
     sx={{
       width: `100%`,
       boxShadow: `lg`,
@@ -38,14 +28,15 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
         textTransform: `uppercase`,
         letterSpacing: `wide`,
         pt: 4,
-        fontSize: [4, 5],
-        fontWeight: `medium`,
+        fontSize: [5, 6],
         lineHeight: 1,
+        fontFamily: `'Source Code Pro', monospace`,
+        fontWeight: `900`,
       }}
     >
       {title}
     </div>
-  </a>
+  </div>
 )
 
 export default ProjectCard

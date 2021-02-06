@@ -45,6 +45,16 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Lato`,
+          `source sans pro\:900` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],

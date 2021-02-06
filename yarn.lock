@@ -5941,6 +5941,11 @@ gatsby-plugin-emotion@^5.4.0:
     "@babel/runtime" "^7.11.2"
     "@emotion/babel-preset-css-prop" "^11.0.0"
 
+gatsby-plugin-google-fonts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+  integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
+
 gatsby-plugin-manifest@^2.12.0:
   version "2.12.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.12.0.tgz#107bcffaf236fa3b8d2c0ee830bd617bc903273b"
@@ -10537,6 +10542,11 @@ react-hot-loader@^4.12.21:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
     source-map "^0.7.3"
+
+react-intersection-observer@^8.31.0:
+  version "8.31.0"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.31.0.tgz#0ed21aaf93c4c0475b22b0ccaba6169076d01605"
+  integrity sha512-XraIC/tkrD9JtrmVA7ypEN1QIpKc52mXBH1u/bz/aicRLo8QQEJQAMUTb8mz4B6dqpPwyzgjrr7Ljv/2ACDtqw==
 
 react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"

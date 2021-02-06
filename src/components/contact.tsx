@@ -36,7 +36,15 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
+        <div sx={{
+            "h2": {
+              fontFamily: `'Source Code Pro',monospace`,
+              fontWeight: `900`,
+              fontSize: `4rem`
+            }
+        }}>
         <ContactMDX />
+        </div>
       </Inner>
       <Footer />
     </Content>

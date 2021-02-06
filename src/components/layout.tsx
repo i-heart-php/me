@@ -37,6 +37,12 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           backgroundColor: theme.colors.primary,
           color: theme.colors.background,
         },
+        ".Typist": {
+          fontFamily: `'Source Code Pro',monospace`,
+          fontWeight: `900`,
+          fontSize: `5rem`,
+        },
+
       })}
     />
     <SEO />
