@@ -40,9 +40,9 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
             "h2": {
               fontFamily: `'Cutive Mono', monospace`,
               fontWeight: `900`,
-              fontSize: `4rem`,
               lineHeight: `.9;`,
-              wordSpacing: "-24px"
+              wordSpacing: ["-12px","-18px","-24px"],
+              fontSize: [5, 6, 7],
             }
         }}>
         <ContactMDX />

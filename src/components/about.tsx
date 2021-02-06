@@ -34,14 +34,15 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
-      <Inner>
+      <Inner className="about-section">
         <div sx={{
           h2: {
             fontFamily: `'Cutive Mono', monospace`,
             fontWeight: `900`,
-            fontSize: `4rem`,
             lineHeight: `.9;`,
-            wordSpacing: "-24px"
+            wordSpacing: ["-12px","-18px","-24px"],
+            marginTop: ["28rem",0,0],
+            fontSize: [5, 6, 7],
           },
         }}>
         <AboutMDX />
