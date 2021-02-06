@@ -19,7 +19,8 @@ const Footer = () => {
         {isDark ? `Light` : `Dark`}
       </button>
       Proudly Open Source<br/>
-      Crafted with <span style={{paddingRight: "1px"}}>❤️</span> in Ontario, Canada 🇨🇦
+      Crafted with <span style={{paddingRight: "1px"}}>❤️</span> in Ontario, Canada 🇨🇦<br/>
+      credits to <a href="https://github.com/LekoArts" target="_blank">@lekoarts</a>
       <br/>
       <br/>
       <a href="https://opensource.creativecommons.org/" target="blank" style={{paddingBottom: ".625rem"}}><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="88px" height="31px">
