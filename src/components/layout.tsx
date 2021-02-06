@@ -43,7 +43,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
         ".Typist": {
           fontFamily: `'Cutive Mono', monospace`,
           fontWeight: `900`,
-          fontSize: `5rem`,
+          fontSize: `4.75rem`,
           lineHeight: `.9;`,
           wordSpacing: "-24px"
         },
