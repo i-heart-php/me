@@ -47,13 +47,13 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       </UpDown>
       <UpDownWide>
         <SVG icon="htm5" width={12} color="icon_darkest" left="95%" top="50%" />
-        <SVG icon="php" width={16} color="#8993be" left="85%" top="15%" />
+        <SVG icon="php" width={24} color="#8993be" left="85%" top="15%" />
         <SVG icon="css3" hiddenMobile width={12} color="#264de4" left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="wordpress" width={16} color="#00749C" left="4%" top="20%" />
-      <SVG icon="reactJS" width={24} color="#61DBFB" left="70%" top="53%" />
+      <SVG icon="reactJS" width={24} color="#61DBFB" left="60%" top="25%" />
       <SVG icon="nodeJS" width={12} color="#3C873A" left="20%" top="30%" />
-      <SVG icon="js" width={8} fill color="#F7DF1E" left="80%" top="70%" />
+      <SVG icon="js" width={12} fill color="#F7DF1E" left="80%" top="65%" />
     </Divider>
   </div>
 )

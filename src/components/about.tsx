@@ -26,14 +26,12 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       </UpDown>
       <UpDownWide>
         <SVG icon="wordpress" hiddenMobile width={16} color="#00749C" left="5%" top="80%" />
-        <SVG icon="htm5" width={12} color="#F16529" left="95%" top="50%" />
+        <SVG icon="js" width={12} color="#F7DF1E" left="90%" top="50%" />
         <SVG icon="mysql" hiddenMobile width={12} color="#F29111" left="85%" top="15%" />
         <SVG icon="reactJS" hiddenMobile width={16} color="#61DBFB" left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="php" hiddenMobile width={16} color="#8993be" left="4%" top="20%" />
-      <SVG icon="js" width={12} color="#F7DF1E" left="70%" top="60%" />
       <SVG icon="nodeJS" width={6} color="#3C873A" left="10%" top="10%" />
-
     </Divider>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
