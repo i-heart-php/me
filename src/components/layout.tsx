@@ -44,7 +44,8 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           fontFamily: `'Source Code Pro',monospace`,
           fontWeight: `900`,
           fontSize: `5rem`,
-          lineHeight: `.9;`
+          lineHeight: `.9;`,
+          wordSpacing: "-24px"
         },
 
       })}
