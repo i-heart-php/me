@@ -22,13 +22,13 @@ const ProjectCard = ({ title, children, bg }) => (
       },
     }}
   >
-    <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>{children}</div>
+    <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)`, fontSize: "1.2rem" }}>{children}</div>
     <div
       sx={{
         textTransform: `uppercase`,
         letterSpacing: `wide`,
         pt: 4,
-        fontSize: [5, 6],
+        fontSize: [6, 7],
         lineHeight: 1,
         fontFamily: `'Source Code Pro', monospace`,
         fontWeight: `900`,

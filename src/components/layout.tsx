@@ -23,6 +23,9 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           fontSize: `18px`,
           WebkitTextSizeAdjust: `100%`,
         },
+        p: {
+          fontFamily: `Lato`,
+        },
         img: {
           borderStyle: `none`,
         },
