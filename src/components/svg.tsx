@@ -54,13 +54,11 @@ const icons = {
   }
 }
 
-type IconType = "htm5" | "circle" | "arrowUp" | "upDown" | "box" | "wordpress" | "cross"
-
 type SVGProps = {
   stroke?: boolean
   color?: string | number | any
   width: number
-  icon: IconType
+  icon: any
   left: string
   top: string
   hiddenMobile?: boolean
