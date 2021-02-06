@@ -48,8 +48,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Lato`,
-          `source sans pro\:900` // you can also specify font weights and styles
+          `Raleway`,
+          `Cutive+Mono` // you can also specify font weights and styles
         ],
         display: 'swap'
       }

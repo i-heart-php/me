@@ -38,7 +38,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       <Inner>
         <div sx={{
             "h2": {
-              fontFamily: `'Source Code Pro',monospace`,
+              fontFamily: `'Cutive Mono', monospace`,
               fontWeight: `900`,
               fontSize: `4rem`,
               lineHeight: `.9;`,

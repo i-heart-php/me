@@ -24,7 +24,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           WebkitTextSizeAdjust: `100%`,
         },
         p: {
-          fontFamily: `Lato`,
+          fontFamily: `Raleway`,
         },
         img: {
           borderStyle: `none`,
@@ -41,7 +41,7 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
           color: theme.colors.background,
         },
         ".Typist": {
-          fontFamily: `'Source Code Pro',monospace`,
+          fontFamily: `'Cutive Mono', monospace`,
           fontWeight: `900`,
           fontSize: `5rem`,
           lineHeight: `.9;`,

@@ -28,9 +28,9 @@ const ProjectCard = ({ title, children, bg }) => (
         textTransform: `uppercase`,
         letterSpacing: `wide`,
         pt: 4,
-        fontSize: [6, 7],
+        fontSize: [4, 5],
         lineHeight: 1,
-        fontFamily: `'Source Code Pro', monospace`,
+        fontFamily: `'Cutive Mono', monospace`,
         fontWeight: `900`,
       }}
     >

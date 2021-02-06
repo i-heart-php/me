@@ -21,7 +21,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <SVG icon="htm5" width={12} color="#F16529" left="90%" top="50%" />
         <SVG icon="php" width={16} color="icon_darker" left="80%" top="90%" />
         <SVG icon="mysql" width={16} color="icon_darkest" left="15%" top="65%" />
-        <SVG icon="reactJS" width={24} color="#61DBFB" left="55%" top="10%" />
+        <SVG icon="reactJS" width={24} color="#61DBFB" left="60%" top="25%" />
         <SVG icon="php" width={6} color="icon_darkest" left="75%" top="10%" />
         <SVG icon="css3" hiddenMobile width={8} color="icon_darkest" left="45%" top="10%" />
       </UpDownWide>

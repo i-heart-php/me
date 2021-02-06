@@ -27,7 +27,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
             h2: {
               gridColumn: `-1/1`,
               color: `white !important`,
-              fontFamily: `'Source Code Pro',monospace`,
+              fontFamily: `'Cutive Mono', monospace`,
               fontWeight: `900`,
               fontSize: `4rem`,
               lineHeight: `.9;`,
